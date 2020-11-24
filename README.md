@@ -11,27 +11,28 @@
 ## 版本说明
 由于PyTorch版本更迭，教程的版本会与PyTorch版本，保持一致。
 
-2019.5.2 PyTorch已经发布1.1的稳定版。
-API的改动不是很大，目前正在测试1.1版本代码兼容性
+[pytorch大版本更新的主要变动总结](pytorch-changelog.md)  当前版本 1.7
 
+## QQ 5群 
 
-[主要改动中文说明](changelog-v1.1.md)
-
-## QQ 2群 
-
-群号：681980831
-
+群号：894059877
 
 扫描二维码
 
-![QR](Pytorch-Handbook-2.png) 
+![QR](Pytorch-Handbook-5.png) 
+
+[点击链接加入群聊 『PyTorch Handbook 交流5群』](//jq.qq.com/?_wv=1027&k=HI1gtcVa)
+
+1群(985896536)已满，2群(681980831) 3群(773681699)已满  4群(884017356)已满 
+
+不要再加了
+
+## 新福利
+
+公众账号每日分享干货文章
+![weixin QR](deephub.jpg) 
 
 
-或
-
-[点击链接加入群聊 『PyTorch Handbook 交流2群』](//shang.qq.com/wpa/qunwpa?idkey=27a51a46371d751795c3a6f0331065b53bfff96b81c27d1646451e21df5463c4)
-
-1群(985896536)已满，不要再加了：
 
 ## 说明
 
@@ -62,14 +63,14 @@ API的改动不是很大，目前正在测试1.1版本代码兼容性
 1. [张量](chapter2/2.1.1.pytorch-basics-tensor.ipynb)
 2. [自动求导](chapter2/2.1.2-pytorch-basics-autograd.ipynb)
 3. [神经网络包nn和优化器optm](chapter2/2.1.3-pytorch-basics-nerual-network.ipynb)
-4. [数据的加载和预处理](chapter2/2.1.4-pytorch-basics-data-lorder.ipynb)
+4. [数据的加载和预处理](chapter2/2.1.4-pytorch-basics-data-loader.ipynb)
 #### 第二节 深度学习基础及数学原理
 
 [深度学习基础及数学原理](chapter2/2.2-deep-learning-basic-mathematics.ipynb)
 
 #### 第三节 神经网络简介
 
-[神经网络简介](chapter2/2.3-deep-learning-neural-network-introduction.ipynb)
+[神经网络简介](chapter2/2.3-deep-learning-neural-network-introduction.ipynb)  注：本章在本地使用微软的Edge打开会崩溃，请使Chrome Firefox打开查看
 
 #### 第四节 卷积神经网络
 
@@ -102,7 +103,7 @@ API的改动不是很大，目前正在测试1.1版本代码兼容性
 
 [visdom](chapter4/4.2.1-visdom.ipynb)
 
-[tensorboardx](chapter4/4.2.2-tensorboardx.ipynb)
+[tensorboardx](chapter4/4.2.2-tensorboardx.ipynb) 
 
 [可视化理解卷积神经网络](chapter4/4.2.3-cnn-visualizing.ipynb)
 
@@ -113,11 +114,17 @@ API的改动不是很大，目前正在测试1.1版本代码兼容性
 #### 第五节 多GPU并行训练
 [多GPU并行计算](chapter4/4.5-multiply-gpu-parallel-training.ipynb)
 
+#### 补充翻译文章：在PyTorch中使用DistributedDataParallel进行多GPU分布式模型训练
+[在PyTorch中使用DistributedDataParallel进行多GPU分布式模型训练](chapter4/distributeddataparallel)
+
+
 ### 第五章 应用
 #### 第一节 Kaggle介绍
 [Kaggle介绍](chapter5/5.1-kaggle.md)
 #### 第二节 结构化数据
+[Pytorch处理结构化数据](chapter5/5.2-Structured-Data.ipynb)
 #### 第三节 计算机视觉
+[Fashion MNIST 图像分类](chapter5/5.3-Fashion-MNIST.ipynb)
 #### 第四节 自然语言处理
 #### 第五节 协同过滤
 
@@ -125,6 +132,9 @@ API的改动不是很大，目前正在测试1.1版本代码兼容性
 
 
 ### 第七章 附录
+
+[树莓派编译安装 pytorch 1.4](pi/)
+
 transforms的常用操作总结
 
 pytorch的损失函数总结
